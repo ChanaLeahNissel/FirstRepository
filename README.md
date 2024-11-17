@@ -1,6 +1,6 @@
-# FirstRepository
-## Repository for Intro to Product Development
+# Cupcake Sale
+## Website to see flavor options and order online
 
-### ***More information:***
-1. Author: Chana Leah Nissel
-2. This README explains what the code in my repository does.
+### ***Included in this repository:***
+1. html file
+2. css design file
