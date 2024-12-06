@@ -7,4 +7,4 @@
 
 ### A pull request was made.
 ### This commit should remain.
-
+### This commit should be squashed.
