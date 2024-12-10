@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cupcake Order Form</title>
+        <link rel="stylesheet" href="Style Sheet.css" />
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>Cupcake Flavors</th>
+                <th>Frosting Flavors</th>
+                <th>Toppings</th>
+            </tr>
+            <tr>
+                <td>Vanilla</td>
+                <td>Rainbow Swirl</td>
+                <td>Oreo Crumbs</td>
+            </tr>
+            <tr>
+                <td colspan="3">Chocolate</td>
+            </tr>
+            <tr>
+                <td>Strawberry</td>
+                <td>Marshmellow</td>
+                <td>Caramel Syrup</td>
+            </tr>
+        </table>
+        <form
+        method="post"
+        action="https://webhook.site/f8c260dc-bf54-41d0-906c-d860948d36cd"
+        >
+            <legend>Order Here</legend>
+            <p>
+                <label>Cupcake Flavor: </label>
+                <select name = "Cupcake Flavor">
+                    <option>Vanilla</option>
+                    <option>Chocolate</option>
+                    <option>Strawberry</option>
+                </select>
+            </p>
+            <p>
+                <label>Frosting Flavor: </label>
+                <select name = "Frosting Flavor">
+                    <option>Rainbow Swirl</option>
+                    <option>Chocolate</option>
+                    <option>Marhshmellow</option>
+                </select>
+            </p>
+            <p>
+                <label>Topping: </label>
+                <select name = "Topping: ">
+                    <option>Oreo Crumbs</option>
+                    <option>Chocolate</option>
+                    <option>Caramel Syrup</option>
+                </select>
+            </p>
+            <input type="submit" />
+        </form>
+    </body>
+</html>
