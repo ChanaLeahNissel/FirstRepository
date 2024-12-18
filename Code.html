@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cupcake Order Form</title>
+        <link rel="stylesheet" href="Style Sheet.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <table class="flex">
+            <tr>
+                <th>Cupcake Flavors</th>
+                <th>Frosting Flavors</th>
+                <th>Toppings</th>
+            </tr>
+            <tr>
+                <td>Vanilla</td>
+                <td>Rainbow Swirl</td>
+                <td>Oreo Crumbs</td>
+            </tr>
+            <tr>
+                <td colspan="3">Chocolate</td>
+            </tr>
+            <tr>
+                <td>Strawberry</td>
+                <td>Marshmellow</td>
+                <td>Caramel Syrup</td>
+            </tr>
+        </table>
+        <img src="https://up.yimg.com/ib/th?id=OIP.CQF4lyvR3hdiACn-vS9iuwAAAA&pid=Api&rs=1&c=1&qlt=95&w=81&h=111" alt="Cupcake" class="flex">
+        
+          <div class="grid-container">
+            <div class="grid-item">Sweet!</div>
+            <div class="grid-item">Delicious!</div>
+            <div class="grid-item">Irresistable!</div>
+            <div class="grid-item">Affordable!</div>
+            <div class="grid-item">Colorful!</div>
+            <div class="grid-item">Kid-friendly!</div>
+            <div class="grid-item">Melts-in-your-mouth!</div>
+          </div>
+          
+        <form
+        method="post"
+        action="https://webhook.site/f8c260dc-bf54-41d0-906c-d860948d36cd"
+        >
+            <legend>Order Here</legend>
+            <p>
+                <label>Cupcake Flavor: </label>
+                <select name = "Cupcake Flavor">
+                    <option>Vanilla</option>
+                    <option>Chocolate</option>
+                    <option>Strawberry</option>
+                </select>
+            </p>
+            <p>
+                <label>Frosting Flavor: </label>
+                <select name = "Frosting Flavor">
+                    <option>Rainbow Swirl</option>
+                    <option>Chocolate</option>
+                    <option>Marhshmellow</option>
+                </select>
+            </p>
+            <p>
+                <label>Topping: </label>
+                <select name = "Topping: ">
+                    <option>Oreo Crumbs</option>
+                    <option>Chocolate</option>
+                    <option>Caramel Syrup</option>
+                </select>
+            </p>
+            <input type="submit" />
+        </form>
+        <button id="like">CLICK to LIKE our website!</button>
+        <script>
+            function handleButtonClick(){
+                alert('Thank you!');
+            }
+            document.getElementById('like').addEventListener('click', handleButtonClick);
+        </script>
+    </body>
+</html>

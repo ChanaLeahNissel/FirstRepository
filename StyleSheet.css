@@ -1,0 +1,41 @@
+@media only screen and (max-width: 500px) {
+    body {
+      background-color: plum;
+    }
+    img{
+        width: 20%;
+        height: 20%;
+    }
+  }
+
+table, th, td {
+    border: 1px solid;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th, td{
+    text-align: center;
+    padding: 25px;
+}
+
+img{
+    width: 30%;
+    height: 30%;
+}
+
+.flex{
+    display:flex;
+}
+
+.grid-container {
+    display: grid;
+    column-gap: 50px;
+    row-gap: 50px;
+    border: solid 1pt black;
+  }
+
+ 
+  
